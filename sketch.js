@@ -136,5 +136,7 @@ async function getTime(){
         time = "day";
     }else if(hour<06 && hour>18){
         time = "nigth";
+    }else{
+        time = "night";
     }
 }
